@@ -2,73 +2,73 @@
     {
         "title": "SoCalGuessr: Street View City Classification",
         "year": 2026,
-        "image": "../images/socalguesser.png",
-        "description": "Built and fine-tuned a pretrained ResNet-18 CNN in PyTorch for multi-class city classification from Street View images, achieving 92.27% validation accuracy and analyzing errors from class similarity and imbalance."
+        "image": "/portfolio/images/socalguesser.png",
+        "description": "This project focuses on classifying cities from Google Street View images using deep learning, exploring how visual features and geographic similarities affect model performance."
     },
     {
         "title": "Causal Reasoning Evaluation for LLMs",
         "year": 2026,
-        "image": "../images/causalprobe.png",
-        "description": "Replicated the CausalProbe framework to evaluate knowledge retrieval versus causal inference across models, prompting strategies, and out-of-distribution benchmarks."
+        "image": "/portfolio/images/causalprobe.png",
+        "description": "This project investigates whether large language models truly perform causal reasoning or rely on memorized knowledge, using controlled benchmarks and prompting strategies."
     },
     {
         "title": "Insurance Fraud Prediction",
         "year": 2025,
-        "image": "../images/fraud.png",
-        "description": "Conducted an end-to-end fraud detection analysis on insurance claims data, engineered client- and company-level features, compared classification models, and interpreted key drivers of fraudulent behavior."
+        "image": "/portfolio/images/fraud.png",
+        "description": "This project analyzes patterns in insurance claims to identify fraudulent behavior, examining how different features contribute to predicting suspicious cases."
     },
     {
         "title": "Clothing Fit Prediction",
         "year": 2025,
-        "image": "../images/clothes.png",
-        "description": "Built and evaluated classification models to predict clothing fit using large-scale customer and product data, including preprocessing, feature engineering, and analysis of objective measurements versus subjective reviews."
+        "image": "/portfolio/images/clothes.png",
+        "description": "This project explores how customer data and product attributes can be used to predict clothing fit, highlighting the relationship between objective measurements and subjective feedback."
     },
     {
         "title": "Recipe Preparation Time and Calorie Analysis",
         "year": 2025,
-        "image": "../images/recipe.png",
-        "description": "Analyzed 230K+ Food.com recipes using scikit-learn pipelines and Ridge regression to identify nutritional drivers of calories, with hyperparameter tuning, permutation testing, and fairness analysis."
+        "image": "/portfolio/images/recipe.png",
+        "description": "This project examines large-scale recipe data to understand the factors that influence calorie content, focusing on nutritional patterns and fairness across different types of recipes."
     },
     {
         "title": "Language Modeling Project",
         "year": 2025,
-        "image": "../images/1.png",
-        "description": "Processed and tokenized a text corpus, implemented Uniform and Unigram baselines, trained an N-gram language model, and built a sampling pipeline to generate coherent text outputs."
+        "image": "/portfolio/images/1.png",
+        "description": "This project explores how language models generate text, comparing different probabilistic approaches to understand how machines learn and produce natural language."
     },
     {
         "title": "Multimedia Processing and Classification Suite",
         "year": 2024,
-        "image": "../images/2.png",
-        "description": "Developed a Python tool for image and audio processing, including grayscale conversion, edge detection, and reverb effects, and implemented a KNN model for image classification."
+        "image": "/portfolio/images/2.png",
+        "description": "This project focuses on processing and analyzing image and audio data, combining signal processing techniques with machine learning for classification tasks."
     },
     {
         "title": "Vel consectetur alias a.",
         "year": 2023,
-        "image": "../images/3.png",
+        "image": "/portfolio/images/3.png",
         "description": "Quas quam omnis eum voluptatem eligendi quasi, maiores quis, eos explicabo eius est corrupti accusamus atque quisquam quos, voluptas optio nulla rem. Veniam dolore voluptatem tempore, facilis consequatur voluptate sint."
     },
     {
         "title": "Provident molestias quae obcaecati.",
         "year": 2023,
-        "image": "../images/4.png",
+        "image": "/portfolio/images/4.png",
         "description": "Blanditiis, assumenda adipisci iure praesentium consequatur voluptates, fuga neque aliquid ipsa aspernatur deleniti, mollitia autem sequi non? Ducimus dolorum sed, eius debitis minima illum magni, nesciunt dicta molestias quidem incidunt?"
     },
     {
         "title": "Beatae error sapiente est!",
         "year": 2023,
-        "image": "../images/5.png",
+        "image": "/portfolio/images/5.png",
         "description": "Eveniet laborum ipsum facere, fugit molestias qui magnam quam in quod corporis, dolorum voluptate accusamus! Eius praesentium minima hic ullam repellat commodi, illo at? Temporibus accusamus cupiditate dolorum consequatur quisquam."
     },
     {
         "title": "Velit quae incidunt libero?",
         "year": 2023,
-        "image": "../images/6.png",
+        "image": "/portfolio/images/6.png",
         "description": "Facilis, pariatur? Sequi maiores rerum ipsum impedit nostrum, expedita consequatur, eveniet dolor dolorem facilis sit. Minima cupiditate, quis commodi, iure dolorem soluta qui, enim ex asperiores sint odio ad saepe?"
     },
     {
         "title": "Adipisci, modi saepe? Similique!",
         "year": 2023,
-        "image": "../images/7.png",
+        "image": "/portfolio/images/7.png",
         "description": "Veritatis officiis maiores doloremque eaque, eum velit vitae totam quae dolore nihil eos libero, similique quidem tempora maxime ratione est saepe dignissimos laborum. Harum, nemo. Et illo alias vero consequuntur!"
     }
 ]
