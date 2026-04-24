@@ -1,0 +1,74 @@
+[
+    {
+        "title": "SoCalGuessr: Street View City Classification",
+        "year": 2026,
+        "image": "../images/socalguesser.png",
+        "description": "Built and fine-tuned a pretrained ResNet-18 CNN in PyTorch for multi-class city classification from Street View images, achieving 92.27% validation accuracy and analyzing errors from class similarity and imbalance."
+    },
+    {
+        "title": "Causal Reasoning Evaluation for LLMs",
+        "year": 2026,
+        "image": "../images/causalprobe.png",
+        "description": "Replicated the CausalProbe framework to evaluate knowledge retrieval versus causal inference across models, prompting strategies, and out-of-distribution benchmarks."
+    },
+    {
+        "title": "Insurance Fraud Prediction",
+        "year": 2025,
+        "image": "../images/fraud.png",
+        "description": "Conducted an end-to-end fraud detection analysis on insurance claims data, engineered client- and company-level features, compared classification models, and interpreted key drivers of fraudulent behavior."
+    },
+    {
+        "title": "Clothing Fit Prediction",
+        "year": 2025,
+        "image": "../images/clothes.png",
+        "description": "Built and evaluated classification models to predict clothing fit using large-scale customer and product data, including preprocessing, feature engineering, and analysis of objective measurements versus subjective reviews."
+    },
+    {
+        "title": "Recipe Preparation Time and Calorie Analysis",
+        "year": 2025,
+        "image": "../images/recipe.png",
+        "description": "Analyzed 230K+ Food.com recipes using scikit-learn pipelines and Ridge regression to identify nutritional drivers of calories, with hyperparameter tuning, permutation testing, and fairness analysis."
+    },
+    {
+        "title": "Language Modeling Project",
+        "year": 2025,
+        "image": "../images/1.png",
+        "description": "Processed and tokenized a text corpus, implemented Uniform and Unigram baselines, trained an N-gram language model, and built a sampling pipeline to generate coherent text outputs."
+    },
+    {
+        "title": "Multimedia Processing and Classification Suite",
+        "year": 2024,
+        "image": "../images/2.png",
+        "description": "Developed a Python tool for image and audio processing, including grayscale conversion, edge detection, and reverb effects, and implemented a KNN model for image classification."
+    },
+    {
+        "title": "Vel consectetur alias a.",
+        "year": 2023,
+        "image": "../images/3.png",
+        "description": "Quas quam omnis eum voluptatem eligendi quasi, maiores quis, eos explicabo eius est corrupti accusamus atque quisquam quos, voluptas optio nulla rem. Veniam dolore voluptatem tempore, facilis consequatur voluptate sint."
+    },
+    {
+        "title": "Provident molestias quae obcaecati.",
+        "year": 2023,
+        "image": "../images/4.png",
+        "description": "Blanditiis, assumenda adipisci iure praesentium consequatur voluptates, fuga neque aliquid ipsa aspernatur deleniti, mollitia autem sequi non? Ducimus dolorum sed, eius debitis minima illum magni, nesciunt dicta molestias quidem incidunt?"
+    },
+    {
+        "title": "Beatae error sapiente est!",
+        "year": 2023,
+        "image": "../images/5.png",
+        "description": "Eveniet laborum ipsum facere, fugit molestias qui magnam quam in quod corporis, dolorum voluptate accusamus! Eius praesentium minima hic ullam repellat commodi, illo at? Temporibus accusamus cupiditate dolorum consequatur quisquam."
+    },
+    {
+        "title": "Velit quae incidunt libero?",
+        "year": 2023,
+        "image": "../images/6.png",
+        "description": "Facilis, pariatur? Sequi maiores rerum ipsum impedit nostrum, expedita consequatur, eveniet dolor dolorem facilis sit. Minima cupiditate, quis commodi, iure dolorem soluta qui, enim ex asperiores sint odio ad saepe?"
+    },
+    {
+        "title": "Adipisci, modi saepe? Similique!",
+        "year": 2023,
+        "image": "../images/7.png",
+        "description": "Veritatis officiis maiores doloremque eaque, eum velit vitae totam quae dolore nihil eos libero, similique quidem tempora maxime ratione est saepe dignissimos laborum. Harum, nemo. Et illo alias vero consequuntur!"
+    }
+]
