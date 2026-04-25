@@ -32,13 +32,13 @@
     {
         "title": "Language Modeling Project",
         "year": 2025,
-        "image": "/portfolio/images/1.png",
+        "image": "/portfolio/images/language.png",
         "description": "This project explores how language models generate text, comparing different probabilistic approaches to understand how machines learn and produce natural language."
     },
     {
         "title": "Multimedia Processing and Classification Suite",
         "year": 2024,
-        "image": "/portfolio/images/2.png",
+        "image": "/portfolio/images/multimedia.png",
         "description": "This project focuses on processing and analyzing image and audio data, combining signal processing techniques with machine learning for classification tasks."
     },
     {
