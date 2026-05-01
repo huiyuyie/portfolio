@@ -20,7 +20,7 @@ let query = '';
 
 // Old state:
 // This used to store the selected slice by index.
-// We replaced it with selectedYear because index can change when the pie is re-rendered.
+// I replaced it with selectedYear because index can change when the pie is re-rendered.
 // let selectedIndex = -1;
 
 let selectedYear = null;
@@ -176,6 +176,14 @@ searchInput.addEventListener('input', (event) => {
 });
 
 applyFilters();
+
+
+
+
+
+
+
+
 
 
 
