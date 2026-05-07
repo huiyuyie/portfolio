@@ -328,25 +328,26 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Below Meta Page Styling */
+
 .stats {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1.5rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  margin-block: 2rem;
 }
 
 .stats dt {
   grid-row: 1;
-  color: #6b7280;
   font-size: 0.9rem;
+  font-weight: 500;
+  color: #6b7280;
   text-transform: uppercase;
 }
 
 .stats dd {
   grid-row: 2;
+  font-size: 3rem;
   margin: 0;
-  font-size: 2.5rem;
-  font-weight: 400;
 }
 
 .gridlines line {
@@ -386,26 +387,63 @@ dl.info dd {
   position: fixed;
   top: 1em;
   left: 1em;
-
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(8px);
-
   padding: 0.75em 1em;
   border-radius: 0.5em;
-
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border: 1px solid #ddd;
-
   z-index: 10;
 }
 
 circle {
   transition: 200ms;
-
   transform-origin: center;
   transform-box: fill-box;
 }
 
 circle:hover {
   transform: scale(1.5);
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8;
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+.language-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem 2rem;
+  margin-top: 1rem;
+}
+
+.language-stats div {
+  text-align: center;
+}
+
+.language-stats dt {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.language-stats dd {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
