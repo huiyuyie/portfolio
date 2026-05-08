@@ -273,18 +273,12 @@ function renderScatterPlot(data, commits) {
 
   svg
   .append('g')
-  .attr(
-    'transform',
-    `translate(0, ${usableArea.bottom})`
-  )
+  .attr('transform', `translate(0, ${usableArea.bottom - padding})`)
   .call(xAxis);
 
   svg
   .append('g')
-  .attr(
-    'transform',
-    `translate(${usableArea.left}, 0)`
-  )
+  .attr('transform', `translate(${usableArea.left + padding}, 0)`)
   .call(yAxis);
 
   const dots = svg
