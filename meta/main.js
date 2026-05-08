@@ -119,9 +119,21 @@ function updateTooltipPosition(event) {
   tooltip.style.top = `${event.clientY}px`;
 }
 
-function createBrushSelector(svg) {
-  svg.call(d3.brush().on('start brush end', brushed));
-  svg.selectAll('.dots, .overlay ~ *').raise();
+function createBrushSelector(svg, usableArea) {
+  const brush = d3
+    .brush()
+    .extent([
+      [usableArea.left, usableArea.top],
+      [usableArea.right, usableArea.bottom],
+    ])
+    .on('start brush end', brushed);
+
+  svg
+    .append('g')
+    .attr('class', 'brush')
+    .call(brush);
+
+  svg.selectAll('.dots').raise();
 }
 
 function brushed(event) {
@@ -304,7 +316,7 @@ function renderScatterPlot(data, commits) {
         updateTooltipVisibility(false);
     });
 
-    createBrushSelector(svg);
+    createBrushSelector(svg, usableArea);
 
 }
 
