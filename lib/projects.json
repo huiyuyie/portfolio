@@ -1,4 +1,11 @@
-[
+[   
+    {
+        "title": "Bikewatching",
+        "year": 2026,
+        "image": "images/bikewatching.png",
+        "description": "An interactive Mapbox and D3 visualization of BlueBikes stations, bike lanes, and traffic flow in the Boston area.",
+        "url": "https://huiyuyie.github.io/bikewatching/"
+    },
     {
         "title": "SoCalGuessr: Street View City Classification",
         "year": 2026,
@@ -64,11 +71,5 @@
         "year": 2023,
         "image": "/portfolio/images/6.png",
         "description": "Facilis, pariatur? Sequi maiores rerum ipsum impedit nostrum, expedita consequatur, eveniet dolor dolorem facilis sit. Minima cupiditate, quis commodi, iure dolorem soluta qui, enim ex asperiores sint odio ad saepe?"
-    },
-    {
-        "title": "Adipisci, modi saepe? Similique!",
-        "year": 2023,
-        "image": "/portfolio/images/7.png",
-        "description": "Veritatis officiis maiores doloremque eaque, eum velit vitae totam quae dolore nihil eos libero, similique quidem tempora maxime ratione est saepe dignissimos laborum. Harum, nemo. Et illo alias vero consequuntur!"
     }
 ]
