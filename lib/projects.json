@@ -2,7 +2,7 @@
     {
         "title": "Bikewatching",
         "year": 2026,
-        "image": "images/bikewatching.png",
+        "image": "/portfolio/images/bikewatching.png",
         "description": "An interactive Mapbox and D3 visualization of BlueBikes stations, bike lanes, and traffic flow in the Boston area.",
         "url": "https://huiyuyie.github.io/bikewatching/"
     },
