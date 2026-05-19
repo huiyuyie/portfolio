@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
 
   <h1>Meta</h1>
@@ -15,21 +16,43 @@
     This page includes stats about the code of this website.
   </p>
 
-  <div id="stats"></div>
+  <div class="commit-filter">
+    <label for="commit-progress">Show commits until:</label>
 
-  <h2>Commits by time of day</h2>
+    <div class="slider-row">
+      <input
+        type="range"
+        id="commit-progress"
+        min="0"
+        max="100"
+        value="100"
+      />
 
-  <div id="chart"></div>
+      <time id="commit-max-time"></time>
+    </div>
+  </div>
 
-  <p id="selection-count">No commits selected</p>
+  <div id="scrolly-1">
+    <div id="scatter-story">some filler text here</div>
 
-  <dl id="language-breakdown" class="language-stats"></dl>
+    <div id="scatter-plot">
+      <div id="stats"></div>
+
+      <h2>Commits by time of day</h2>
+
+      <div id="chart"></div>
+
+      <p id="selection-count">No commits selected</p>
+
+      <dl id="language-breakdown" class="language-stats"></dl>
+    </div>
+  </div>
 
   <dl id="commit-tooltip" class="info tooltip" hidden>
 
     <dt>Commit</dt>
     <dd>
-        <a href="" id="commit-link" target="_blank"></a>
+      <a href="" id="commit-link" target="_blank"></a>
     </dd>
 
     <dt>Date</dt>
@@ -46,7 +69,11 @@
 
   </dl>
 
+  <dl id="files"></dl>
+
   <script type="module" src="../global.js"></script>
   <script type="module" src="./main.js"></script>
+
 </body>
+
 </html>
